@@ -6,6 +6,7 @@ export {
     StorageKey,
 } from './enums/enums.ts';
 export {
+    type AsyncThunkConfig,
     type HttpApiOptions,
     type HttpApiResponse,
     type HttpMethod,

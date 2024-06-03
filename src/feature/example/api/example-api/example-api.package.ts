@@ -4,7 +4,7 @@ import {
     HTTP,
     HttpApi,
     Storage,
-} from '../../shared/index.ts';
+} from '../../../../shared/index.ts';
 
 type Constructor = {
     baseUrl: string;
@@ -12,7 +12,10 @@ type Constructor = {
     storage: Storage;
 };
 type ExampleApiResponseDto = {
-    exampleData: string;
+    userId: number;
+    id: number;
+    title: string;
+    completed: boolean;
 };
 export class ExampleApi extends HttpApi {
     constructor({ baseUrl, http, storage }: Constructor) {
@@ -21,7 +24,7 @@ export class ExampleApi extends HttpApi {
 
     public async getPositions() {
         const response = await this.load(
-            this.getFullEndpoint(ApiEndpoints.POSITIONS),
+            this.getFullEndpoint(`${ApiEndpoints.TODOS}/1`),
             {
                 method: 'GET',
                 contentType: ContentType.JSON,
