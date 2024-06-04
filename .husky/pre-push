@@ -1,0 +1,1 @@
+npm run lint:fs && npm run lint:type && npm run lint:css:fix && npm run lint:prettier:fix && npm run lint:js:fix
