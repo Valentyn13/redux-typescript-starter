@@ -1,3 +1,2 @@
-'src/**/*.scss': npx stylelint *.scss --fix
-'src/**/*.{ts,tsx}': npx eslint *.{ts,tsx} --fix
+'src/**/*.scss': npx stylelint *{.scss,css} --fix
 'src/**/*.{ts,tsx,json,md,scss,html,yml}': prettier --write *.{ts,tsx,json,md,scss,html,yml}
