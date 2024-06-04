@@ -14,23 +14,17 @@
     npm install
     ```
 
-3. Run command **`npx simple-git-hooks`** at the root
-
-    ```
-    npx simple-git-hooks
-    ```
-
-4. Start project with command **`npm run dev`**
+3. Start project with command **`npm run dev`**
 
     ```
     npm run dev
     ```
 
-5. Enjoy coding ❤️
+4. Enjoy coding ❤️
 
 ## 🥊 Code quality
 
--   [simple-git-hooks](https://www.npmjs.com/package/simple-git-hooks) — a tool that lets you easily manage git hooks.
+-   [husky](https://typicode.github.io/husky/) — a tool that lets you easily manage git hooks.
 -   [lint-staged](https://www.npmjs.com/package/lint-staged) — run linters on git staged files.
 -   [commitlint](https://commitlint.js.org/) — helps your team adhere to a commit convention.
 -   [prettier](https://prettier.io/) — an opinionated code formatter.
