@@ -1,5 +1,5 @@
 ls:
-    .dir: regex:([.a-z0-9]*)([-.][a-z0-9]+)*
+    .dir: regex:([._a-z0-9]*)([-.][a-z0-9]+)*
     .scss: regex:([_.a-z0-9]*)([-.][a-z0-9]+)*
     .ts: regex:([A-Za-z][.a-z0-9]*)([-.][a-z0-9]+)*
     .tsx: regex:([A-Za-z][.a-z0-9]*)([-.][a-z0-9]+)*
