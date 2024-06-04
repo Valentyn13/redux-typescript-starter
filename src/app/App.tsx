@@ -12,7 +12,7 @@ const App = () => {
     };
     return (
         <>
-            <h1>Hello world</h1>
+            <h1>Hello world!!!</h1>
             <button onClick={handleClick}>get data</button>
             {data && <p>{JSON.stringify(data)}</p>}
         </>
